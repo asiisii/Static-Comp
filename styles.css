@@ -1,5 +1,7 @@
 /* Header Start */
-
+body {
+  background: linear-gradient(60deg, #506669, #445757, #493d36, #5e543e); 
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -13,7 +15,7 @@ nav {
 
 a {
   font-size: 30px;
-  margin-left: 30px;
+  margin-left: 50px;
   text-decoration:  none;
 }
 
@@ -55,7 +57,7 @@ p > img {
 .page-title,
 .logo {
   font-size: 3rem;
-  margin: 20px 30px 30px 30px;
+  margin: 20px 50px 30px 50px;
 }
 /* Article End */
 
@@ -63,12 +65,35 @@ p > img {
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 373px);
+  grid-template-rows: repeat(3, 410px);
   grid-gap: 11px;
-  margin: 0 30px 0 30px;
+  margin: 0 50px 0 50px;
 }
 
 .card {
-  background-color: gray;
+  background-color: white;
+}
+
+.member {
+  height: 40%;
+  width: 100%;
+}
+
+.info {
+  margin: 3%;
+  padding: 2px;
+  
+}
+
+.enjoy {
+  background: lightgray
+}
+
+.name {
+  font-weight: bolder;
+}
+
+.bounty {
+  color: blue;
 }
 /* Card Section End*/
