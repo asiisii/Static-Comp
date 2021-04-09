@@ -2,11 +2,12 @@
 body {
   background: linear-gradient(60deg, #506669, #445757, #493d36, #5e543e); 
 }
+
 header {
   display: flex;
   justify-content: space-between;
   background: linear-gradient(60deg, #7ab9c2, #4d8282, #b57e5e, #c4b082); 
-  height: 137px;
+  height: 10%;
 }
 
 nav {
@@ -17,10 +18,6 @@ a {
   font-size: 30px;
   margin-left: 50px;
   text-decoration:  none;
-}
-
-a:first-child {
-  color: orange;
 }
 
 .icons {
@@ -50,7 +47,6 @@ p > img {
 .dropdown {
   height: 20px;
 }
-
 /* Header End */
 
 /* Article Start */
@@ -58,6 +54,11 @@ p > img {
 .logo {
   font-size: 3rem;
   margin: 20px 50px 30px 50px;
+}
+
+.page-title,
+a:first-child  {
+  color: orange;
 }
 /* Article End */
 
@@ -75,14 +76,13 @@ p > img {
 }
 
 .member {
-  height: 40%;
+  height: 100%;
   width: 100%;
 }
 
 .info {
   margin: 3%;
-  padding: 2px;
-  
+  padding: 1px;
 }
 
 .enjoy {
@@ -97,3 +97,30 @@ p > img {
   color: blue;
 }
 /* Card Section End*/
+
+/* View Overlay Start*/
+.img-container {
+  position: relative;
+  text-align: center;
+  height: 40%;
+}
+
+.views-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 1%;
+  left: 6%;
+}
+
+.magnifying-glass {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.count{
+  color: orange;
+}
+/* View Overlay End*/
