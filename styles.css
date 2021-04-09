@@ -1,4 +1,4 @@
-/* Header Start */
+/* --------------Header Start------------- */
 body {
   background: linear-gradient(60deg, #506669, #445757, #493d36, #5e543e); 
 }
@@ -47,9 +47,9 @@ p > img {
 .dropdown {
   height: 20px;
 }
-/* Header End */
+/* --------------Header End------------- */
 
-/* Article Start */
+/* --------------Article Start------------- */
 .page-title,
 .logo {
   font-size: 3rem;
@@ -60,13 +60,12 @@ p > img {
 a:first-child  {
   color: orange;
 }
-/* Article End */
+/* --------------Article End------------- */
 
-/* Card Section Start*/
+/* --------------Card Section Start--------------*/
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* grid-template-rows: repeat(3, 410px); */
   grid-gap: 11px;
   margin: 0 50px 0 50px;
 }
@@ -96,9 +95,9 @@ a:first-child  {
 .bounty {
   color: blue;
 }
-/* Card Section End*/
+/* --------------Card Section End--------------*/
 
-/* View Overlay Start*/
+/*-------------- View Overlay Start--------------*/
 .img-container {
   position: relative;
   text-align: center;
@@ -123,11 +122,9 @@ a:first-child  {
 .count{
   color: orange;
 }
-/* View Overlay End*/
+/* --------------View Overlay End--------------*/
 
-
-/* Tablet */
-
+/* --------------Tablet --------------*/
 @media screen and (max-width: 768px) {
   .container {
     grid-template-columns: repeat(2, 1fr);
@@ -162,7 +159,7 @@ a:first-child  {
   }
 }
 
-/* Mobile */
+/*-------------- Mobile-------------- */
 @media screen and (max-width: 425px) {
   .container {
     grid-template-columns: repeat(1, 1fr);
@@ -185,25 +182,4 @@ a:first-child  {
 
 }
 
-/* @media screen and (max-width: 375px) {
-  .container {
-    grid-template-columns: repeat(1, 1fr);
-    margin: 0 25px 0 25px;
-  }
-
-  header {
-    flex-direction: column;
-  }
-
-  nav {
-    margin-top: 30px;
-    text-align: center;
-  }
-
-  a {
-    font-size: 10px;
-    margin-left: 15px;
-  }
-
-} */
 
