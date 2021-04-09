@@ -66,7 +66,7 @@ a:first-child  {
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 410px);
+  /* grid-template-rows: repeat(3, 410px); */
   grid-gap: 11px;
   margin: 0 50px 0 50px;
 }
@@ -124,3 +124,62 @@ a:first-child  {
   color: orange;
 }
 /* View Overlay End*/
+
+
+/* For tablet */
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 50px 0 25px;
+  }
+
+  .page-title,
+  .logo {
+    font-size: 1rem;
+    margin: 10px 25px 15px 25px;
+  }
+
+  a {
+    font-size: 13px;
+    margin-left: 25px;
+  }
+
+  .username {
+    font-size: 13px;
+  }
+
+  .dropdown {
+    height: 15px;
+  }
+
+  .icons {
+    height: 20px;
+  }
+
+  .account {
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 25px 0 25px;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    margin-top: 30px;
+  }
+
+  a {
+    font-size: 10px;
+    margin-left: 15px;
+  }
+
+}
+
