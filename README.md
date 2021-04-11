@@ -47,12 +47,9 @@ To solidify and demonstrate the understanding of:
 #### Code Reviewer
 <table>
     <tr>
-         <td> Kip West <a href="https://github.com/jkwest-93">GH (mentor)</td>
-         <td> Tyson McNutt <a href="https://github.com/tysnj">GH (accountabilibuddy)</td>
+      <td> Tyson McNutt <a href="https://github.com/tysnj">GH (accountabilibuddy)</td>
     </tr>
     </tr>
-    <td><img src="https://avatars.githubusercontent.com/u/62263439?v=4" alt="Kip West GH img"
- width="150" height="auto" /></td>
  <td><img src="https://avatars.githubusercontent.com/u/65634894?v=4" alt="Tyson McNutt GH img"
  width="150" height="auto" /></td>
 </tr>
